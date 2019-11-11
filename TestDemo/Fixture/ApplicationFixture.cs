@@ -22,7 +22,7 @@ namespace TestDemo.Fixture
             //builder.RegisterType<IdentificationRecordDemo55>().As<IIdentificationRecord>().InstancePerLifetimeScope();
             //builder.RegisterType<IdentificationRecordDemo56>().As<IIdentificationRecord>().InstancePerLifetimeScope();
 
-            builder.RegisterType<IdentificationRecordBuilder>().As<IIdentificationRecordBuilder<IIdentificationRecord>>();
+            //builder.RegisterType<IdentificationRecordBuilder>().As<IIdentificationRecordBuilder<IIdentificationRecord>>();
             builder.RegisterType<Builder<IdentificationRecordDemo55>>().As<IBuilder<IdentificationRecordDemo55>>();
 
             Container = builder.Build();
